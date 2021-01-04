@@ -23,7 +23,10 @@
 	    "laravel": {
 	        "providers": [
 	            "Valeriogit\\Tournament\\TournamentServiceProvider"
-	        ]
+	        ],
+            "aliases": {
+                "Tournament": "Valeriogit\\Tournament\\Facade"
+            }
 	    }
 	}
 }
