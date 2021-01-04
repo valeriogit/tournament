@@ -1,0 +1,12 @@
+{
+    "name": "exception/desktop",
+    "description": "Create tournament easily",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "exception",
+            "email": "valerio.palazzo@gmail.com"
+        }
+    ],
+    "require": {}
+}
