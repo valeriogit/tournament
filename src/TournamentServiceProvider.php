@@ -50,8 +50,7 @@ class TournamentServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/../config/tournament_config.php',
-            'tournament_config'
+            __DIR__.'/../config/tournament_config.php', 'tournament'
         );
     }
 }
