@@ -1,11 +1,11 @@
 <?php
 
-namespace Valeriogit\Tournament;;
+namespace Valeriogit\Tournament;
 
 class Tournament
 {
-    public function __invoke()
+	public function index()
     {
-        return "OLAAAA";
+        return 'DAJE CAZZO!';
     }
 }

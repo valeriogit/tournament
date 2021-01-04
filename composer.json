@@ -8,7 +8,7 @@
             "email": "valerio.palazzo@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "master",
     "require": {
         "php": "^7.3|^8.0",
         "illuminate/support": "^8.0",
