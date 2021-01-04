@@ -1,12 +1,24 @@
 {
-    "name": "exception/desktop",
+    "name": "valeriogit/tournament",
     "description": "Create tournament easily",
     "license": "MIT",
     "authors": [
         {
-            "name": "exception",
+            "name": "valeriogit",
             "email": "valerio.palazzo@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+    	"psr-4": {
+	        "Valeriogit\\Tournament\\": "src/"
+    	}
+	},
+	"extra": {
+	    "laravel": {
+	        "providers": [
+	            "Valeriogit\\Tournament\\TournamentServiceProvider"
+	        ]
+	    }
+	}
 }
