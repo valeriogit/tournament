@@ -1,2 +1,0 @@
-# tournament
-Create tournament easily
